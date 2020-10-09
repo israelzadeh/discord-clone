@@ -1,0 +1,36 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.login > button {
+  width: 180px;
+  background-color: #7289da;
+  color: #eff2f5;
+  font-weight: 800;
+}
+
+.login > button:hover {
+  background-color: #677bc4;
+}
+
+.login > div > img {
+  object-fit: contain;
+  height: 80px;
+}
+
+/* For Desktop */
+@media screen and (min-width: 480px) {
+  .login > div > img {
+    object-fit: contain;
+    height: 150px;
+  }
+  .login > button {
+    width: 300px;
+    background-color: #7289da;
+    color: #eff2f5;
+    font-weight: 800;
+  }
+}
